@@ -1,37 +1,26 @@
-# note-taro
+<h1 align="center">📔 note-taro</h1>
 
-#### 介绍
-taro小程序项目：展示Linux命令行
+### 📖 语言
 
-#### 软件架构
-软件架构说明
+简体中文 | [English](./README.en.md)
 
+### ⌛ 开始
 
-#### 安装教程
+#### 安装依赖
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+```
+npm install
+```
 
-#### 使用说明
+#### 运行调式
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+* 使用 `package.json` 中，`Taro` 提供的 `dev:weapp` 命令 运行
 
-#### 参与贡献
+```
+npm run build:weapp -- --watch
+```
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+* 打开微信开发者工具，导入项目
+* 详情 -> 本地设置
+  * 勾选 `不校验合法域名、web-view (业务域名)、TLS 版本以及 HTTPS 证书`
+  * 否则无法访问本地 `127.0.0.1` 的后端服务
