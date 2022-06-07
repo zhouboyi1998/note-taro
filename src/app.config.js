@@ -1,8 +1,7 @@
 export default {
   pages: [
     'pages/list/list',
-    'pages/index/index',
-    'pages/cmd/cmd'
+    'pages/detail/detail'
   ],
   window: {
     backgroundTextStyle: 'light',
