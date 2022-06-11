@@ -51,11 +51,12 @@ export default class Detail extends Component {
         <View className='at-article__info'>
           {data.Usage}
         </View>
-        <View className='at-article__info'>
+        <View className='at-article__p'>
           <AtList>
             {
               data.Params.map(
-                item => <AtListItem title={`${item.Param} : ${item.Description}`}></AtListItem>
+                item =>
+                  <AtListItem title={`${item.Param}`} note={`${item.Description}`}></AtListItem>
               )
             }
           </AtList>
