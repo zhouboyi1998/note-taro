@@ -7,9 +7,9 @@ import { AtIndexes } from 'taro-ui'
 import "taro-ui/dist/style/components/toast.scss"
 import "taro-ui/dist/style/components/indexes.scss"
 import "taro-ui/dist/style/components/list.scss"
-import './list.scss'
+import './command.scss'
 
-export default class List extends Component {
+export default class Command extends Component {
 
   componentWillMount() {
     this.state = {};
