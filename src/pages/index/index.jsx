@@ -12,7 +12,7 @@ import './index.scss'
 export default class Index extends Component {
 
   componentWillMount() {
-    this.state = {};
+    this.state = {}
   }
 
   componentDidMount() {

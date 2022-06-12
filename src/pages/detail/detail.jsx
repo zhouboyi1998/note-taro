@@ -21,13 +21,13 @@ export default class Detail extends Component {
   }
 
   componentDidMount() {
-    let that = this;
-    let cmd = getCurrentInstance().router.params.cmd;
+    let that = this
+    let cmd = getCurrentInstance().router.params.cmd
     // 获取命令详情
     Taro.request({
       url: "http://127.0.0.1:18091/note/command/one/" + cmd,
       success: function (res) {
-        that.setState({data: res.data});
+        that.setState({data: res.data})
       }
     })
   }
@@ -56,7 +56,7 @@ export default class Detail extends Component {
             {
               data.Params.map(
                 item =>
-                  <AtListItem title={`${item.Param}`} note={`${item.Description}`}></AtListItem>
+                  <AtListItem title={`${item.Param}`} note={`${item.Description}`}/>
               )
             }
           </AtList>

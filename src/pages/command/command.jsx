@@ -12,7 +12,7 @@ import './command.scss'
 export default class Command extends Component {
 
   componentWillMount() {
-    this.state = {};
+    this.state = {}
   }
 
   componentDidMount() {
@@ -21,35 +21,35 @@ export default class Command extends Component {
       url: 'http://127.0.0.1:18091/note/command/list-name',
       success: function (res) {
         // 存储索引选择器需要的数据格式
-        let list = [];
+        let list = []
         // 添加 A-Z 分别对应的集合
         for (let ascii = 65; ascii < 91; ascii++) {
-          let collection = {};
-          let letter = String.fromCharCode(ascii);
+          let collection = {}
+          let letter = String.fromCharCode(ascii)
           // 集合对外显示的标题
-          collection.title = letter;
+          collection.title = letter
           // 集合的 Key
-          collection.key = letter;
+          collection.key = letter
           // 集合包含的命令列表
-          collection.items = [];
+          collection.items = []
           // 将命令添加到对应首字母的集合中
           for (let i in res.data) {
             if (res.data[i].substring(1, -1).toUpperCase() == letter) {
-              let item = {};
-              item.name = res.data[i];
-              collection.items.push(item);
-              break;
+              let item = {}
+              item.name = res.data[i]
+              collection.items.push(item)
+              break
             }
           }
           // 如果该首字母下没有任何命令, 则不添加到 list 中
           if (collection.items.length > 0) {
-            list.push(collection);
+            list.push(collection)
           }
         }
         // 将 list 变量赋值给 state 中的 list
-        that.setState({list: list});
+        that.setState({list: list})
       }
-    });
+    })
   }
 
   componentWillUnmount() {
