@@ -33,3 +33,7 @@ npm run build:weapp -- --watch
 * 详情 -> 本地设置
   * 勾选 `不校验合法域名、web-view (业务域名)、TLS 版本以及 HTTPS 证书`
   * 否则无法访问本地 `127.0.0.1` 的后端服务
+
+### 📜 开源协议
+
+[MIT License](https://opensource.org/licenses/MIT) Copyright (c) 2022 周博义

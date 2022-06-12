@@ -1,6 +1,7 @@
 export default {
   pages: [
-    'pages/list/list',
+    'pages/index/index',
+    'pages/command/command',
     'pages/detail/detail'
   ],
   window: {

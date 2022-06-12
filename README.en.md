@@ -26,3 +26,7 @@ npm install
 ```
 npm run build:weapp -- --watch
 ```
+
+### 📜 Licence
+
+[MIT License](https://opensource.org/licenses/MIT) Copyright (c) 2022 周博义
