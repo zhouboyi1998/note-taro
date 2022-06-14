@@ -42,7 +42,7 @@ export default class Detail extends Component {
   }
 
   render() {
-    const data = this.state.data;
+    const data = this.state.data
     return (
       <View className='at-article'>
         <View className='at-article__h1'>

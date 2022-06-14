@@ -16,7 +16,7 @@ export default class Command extends Component {
   }
 
   componentDidMount() {
-    let that = this;
+    let that = this
     Taro.request({
       url: 'http://127.0.0.1:18091/note/command/list-name',
       success: function (res) {
@@ -68,7 +68,7 @@ export default class Command extends Component {
   }
 
   render() {
-    const list = this.state.list;
+    const list = this.state.list
     return (
       <View style='height:100vh'>
         <AtIndexes

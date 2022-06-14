@@ -50,14 +50,14 @@ export default class Index extends Component {
               url: '/pages/search/search'
             },
             {
+              iconInfo: {'value': 'at-icon at-icon-bell', 'size': 60, 'color': '#E93B3D'},
+              value: 'Plan',
+              url: '/pages/plan/plan'
+            },
+            {
               iconInfo: {'value': 'at-icon at-icon-tag', 'size': 60, 'color': '#FFC701'},
               value: 'Tip',
               url: '/pages/tip/tip'
-            },
-            {
-              iconInfo: {'value': 'at-icon at-icon-bell', 'size': 60, 'color': '#E93B3D'},
-              value: 'Reminder',
-              url: '/pages/reminder/reminder'
             },
             {
               iconInfo: {'value': 'at-icon at-icon-message', 'size': 60, 'color': '#15DEFF'},
