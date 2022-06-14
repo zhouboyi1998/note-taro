@@ -2,7 +2,8 @@ export default {
     pages: [
         'pages/index/index',
         'pages/command/command',
-        'pages/detail/detail'
+        'pages/detail/detail',
+        'pages/plan/plan'
     ],
     window: {
         backgroundTextStyle: 'light',
