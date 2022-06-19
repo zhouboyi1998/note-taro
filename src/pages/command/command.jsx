@@ -18,7 +18,7 @@ export default class Command extends Component {
   componentDidMount() {
     let that = this
     Taro.request({
-      url: 'http://127.0.0.1:18091/note/command/list-name',
+      url: 'http://127.0.0.1:18091/note/command/list/name',
       success: function (res) {
         // 存储索引选择器需要的数据格式
         let list = []
