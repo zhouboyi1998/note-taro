@@ -13,9 +13,9 @@ export default class Detail extends Component {
   componentWillMount() {
     this.state = {
       data: {
-        Command: "",
-        Usage: "",
-        Params: []
+        command: "",
+        usage: "",
+        params: []
       }
     }
   }
@@ -46,17 +46,17 @@ export default class Detail extends Component {
     return (
       <View className='at-article'>
         <View className='at-article__h1'>
-          {data.Command}
+          {data.command}
         </View>
         <View className='at-article__info'>
-          {data.Usage}
+          {data.usage}
         </View>
         <View className='at-article__p'>
           <AtList>
             {
-              data.Params.map(
+              data.params.map(
                 item =>
-                  <AtListItem title={`${item.Param}`} note={`${item.Description}`}/>
+                  <AtListItem title={`${item.param}`} note={`${item.description}`}/>
               )
             }
           </AtList>
