@@ -4,9 +4,9 @@ import Taro from '@tarojs/taro'
 import { AtIndexes } from 'taro-ui'
 
 // 按需引入 Taro UI
-import "taro-ui/dist/style/components/toast.scss"
-import "taro-ui/dist/style/components/indexes.scss"
-import "taro-ui/dist/style/components/list.scss"
+import 'taro-ui/dist/style/components/toast.scss'
+import 'taro-ui/dist/style/components/indexes.scss'
+import 'taro-ui/dist/style/components/list.scss'
 import './command.scss'
 
 export default class Command extends Component {
@@ -47,7 +47,7 @@ export default class Command extends Component {
           }
         }
         // 将 list 变量赋值给 state 中的 list
-        that.setState({list: list})
+        that.setState({ list: list })
       }
     })
   }
@@ -72,8 +72,8 @@ export default class Command extends Component {
     return (
       <View style='height:100vh'>
         <AtIndexes
-          list={list}
-          onClick={this.onClick.bind(this)}
+          list={ list }
+          onClick={ this.onClick.bind(this) }
         >
         </AtIndexes>
       </View>
