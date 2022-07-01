@@ -37,7 +37,7 @@ export default class Plan extends Component {
   render() {
     const list = this.state.list
     return (
-      <View style='height:100vh; margin-top:20px; margin-left:80px; margin-right:80px;'>
+      <View style='margin-top:20px; margin-left:80px; margin-right:80px;'>
         <AtTimeline
           items={ list }
           customStyle={ { transformOrigin: 'top', transform: 'scale(1.4)' } }
