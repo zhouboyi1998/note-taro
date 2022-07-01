@@ -75,9 +75,9 @@ export default class Index extends Component {
         <Text>&nbsp;</Text>
         <AtProgress percent={ 100 } status='progress' color='#FFC701' strokeWidth={ 10 } isHidePercent={ true }/>
         <Text>&nbsp;</Text>
-        <AtProgress percent={ 100 } status='progress' color='#6190E8' strokeWidth={ 10 } isHidePercent={ true }/>
-        <Text>&nbsp;</Text>
         <AtProgress percent={ 100 } status='progress' color='#179C2D' strokeWidth={ 10 } isHidePercent={ true }/>
+        <Text>&nbsp;</Text>
+        <AtProgress percent={ 100 } status='progress' color='#6190E8' strokeWidth={ 10 } isHidePercent={ true }/>
       </View>
     )
   }
