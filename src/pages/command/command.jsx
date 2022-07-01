@@ -74,6 +74,7 @@ export default class Command extends Component {
         <AtIndexes
           list={ list }
           onClick={ this.onClick.bind(this) }
+          isVibrate={ false }
         >
         </AtIndexes>
       </View>
