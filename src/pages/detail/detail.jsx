@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { View, Text } from '@tarojs/components'
+import { View } from '@tarojs/components'
 import Taro, { getCurrentInstance } from '@tarojs/taro'
 import { AtList, AtListItem } from 'taro-ui'
 
