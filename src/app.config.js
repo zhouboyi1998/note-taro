@@ -3,7 +3,8 @@ export default {
         'pages/index/index',
         'pages/command/command',
         'pages/detail/detail',
-        'pages/plan/plan'
+        'pages/plan/plan',
+        'pages/tip/tip'
     ],
     window: {
         backgroundTextStyle: 'light',
