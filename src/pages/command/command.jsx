@@ -71,11 +71,7 @@ export default class Command extends Component {
     const list = this.state.list
     return (
       <View style='height:100vh'>
-        <AtIndexes
-          list={ list }
-          onClick={ this.onClick.bind(this) }
-          isVibrate={ false }
-        >
+        <AtIndexes list={ list } onClick={ this.onClick.bind(this) } isVibrate={ false }>
         </AtIndexes>
       </View>
     )
