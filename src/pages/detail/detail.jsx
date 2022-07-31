@@ -55,8 +55,7 @@ export default class Detail extends Component {
           <AtList>
             {
               data.params.map(
-                item =>
-                  <AtListItem title={ `${ item.param }` } note={ `${ item.description }` }/>
+                item => <AtListItem title={ `${ item.param }` } note={ `${ item.description }` }/>
               )
             }
           </AtList>
